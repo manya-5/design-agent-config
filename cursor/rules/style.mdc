@@ -1,0 +1,15 @@
+---
+description: Writing and code conventions for my design projects
+alwaysApply: true
+---
+
+Writing and copy:
+- Never use em dashes. Use a period, comma, parens, or colon instead.
+- Peer-level tone, casual and direct. No mentor-speak, no "let's", no hedging.
+- No over-explaining. Lead with the answer.
+
+Code:
+- Tailwind utility classes only, no custom CSS unless unavoidable.
+- Functional React components with TypeScript.
+- Match Linear, Vercel, Supabase visual conventions: neutral palette, tight spacing, restrained color use.
+- Lead with visual output when building UI. Show the component, don't describe options.

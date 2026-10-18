@@ -1,0 +1,11 @@
+---
+description: How to design AI features so people can see, approve and undo what happens
+alwaysApply: false
+---
+
+When a feature lets an AI act on someone's behalf:
+- Show what it's about to do before it does it, in plain words, with each step editable.
+- Ask once, clearly. Don't stack confirmations until people stop reading them.
+- While it works, name the current step and keep a Stop button in reach.
+- After it's done, say what changed, what didn't, and how to undo it.
+- Never show progress that isn't real. No timers pretending to be progress bars.

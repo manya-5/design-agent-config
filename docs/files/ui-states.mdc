@@ -1,0 +1,13 @@
+---
+description: Every UI component ships with all of its states, not just the happy path
+globs: ["**/*.tsx", "**/*.jsx"]
+alwaysApply: false
+---
+
+When building or changing a component:
+- Build empty, loading, error and success states, not just the filled-in one.
+- Every interactive element has hover, focus-visible, pressed and disabled styles. Focus must be visible.
+- Test with very long text, very short text and missing images.
+- Buttons say what they do ("Save changes"), and the same action keeps the same name in toasts and confirmations.
+- Error messages say what happened and what to do next. No "Something went wrong".
+- Respect prefers-reduced-motion for anything that moves.

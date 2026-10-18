@@ -1,0 +1,11 @@
+---
+description: Check UI changes in a real browser and fix what's broken before saying it's done
+alwaysApply: false
+---
+
+When I give you a URL to check:
+1. Open it in a browser with the Playwright MCP.
+2. Look for errors in the console and anything visibly broken on the page.
+3. Fix the cause in the codebase, not the symptom.
+4. Reload and check again. Repeat until there are no errors.
+5. Tell me what you changed in one or two sentences.
